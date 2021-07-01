@@ -1,18 +1,12 @@
-// import { ReactNode } from 'react';
-import React from 'react'
-
-import { Container } from './styles';
-
-// interface HomeProps {
-//   children?: ReactNode;
-// }
+import React from 'react';
+import { Container, Sidebar } from './styles';
 
 function Home() {
   return (
     <Container>
-      
+      <Sidebar />
     </Container>
-  );
+  )
 };
 
 export default Home;
